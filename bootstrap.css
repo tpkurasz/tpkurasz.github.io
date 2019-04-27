@@ -1,0 +1,122 @@
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-4{
+    flex: 33.33%;
+    max-width: 33.33%
+}
+
+.jumbotron{
+    padding: 4rem 2rem;
+}
+
+.centered{
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid lightgray;
+    border-radius: .25rem;
+    background-color: white;
+    width: 100%;
+   
+}
+
+.mb-4{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.shadow-sm{
+    box-shadow: 0 .125rem .25rem lightgrey
+}
+
+.card-body{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    word-wrap: break-word;
+    text: wrap;
+}
+
+.background-image{
+    background-image: url("/Project/media/rink1.png");
+  }
+
+.column-right{
+    text-align: right;
+}
+
+
+.d-block{
+    display: block;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.border{
+    border-color: blue;
+}
+
+.side-margins{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.color{
+    background-color: whitesmoke;
+}
+
+.responsive{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.bottom{
+    margin-bottom: 100px;
+}
+
+.background-blue{
+    background-color: #7995AB
+}
+
+.background-border{
+    border-color: white;
+    size: 20px;
+}
+
+.white-text{
+    color:#f3f3f3;
+}
+
+.stat-image{
+    background-image: url("/Project/media/rink1.png");
+  }
+
+.side-margins1{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+

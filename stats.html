@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stats</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 50%;
+      height: 100%;
+  }
+  </style>
+  <link href="bootstrap.css" rel="stylesheet" />
+    <link href="base.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="./js/jquery.sticky.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="">
+        <header>  
+            <div class="stat-image">
+                <div class="jumbotron text-center">
+                    <h1>Netminder News</h1>
+                    <h3>The latest in all things goaltender related</h3>
+                </div>
+               <nav class="navbar navbar-default navbar-fixed">
+                    <ul class="container nav navbar-nav">
+                        <li class="active"><a href="/Project/index.html">Home</a>  </li>
+                        <li class="active"><a href="/Project/stats.html">Stats</a> </li>                       
+                        <li class="active"><a href="/Project/history.html">History</a></li>                       
+                    </ul>
+                </nav>
+            </div>   
+        </header>
+    </div>     
+           <div class="centered stat-image">
+                <h1>Stats by League</h1>
+           </div> 
+            
+        
+                <div id="myCarousel"  data-ride="carousel" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                        <li class="" data-target="#myCarousel" data-slide-to="1"></li>
+                        <li class="" data-target="#myCarousel" data-slide-to="2"></li>
+                        <li class="" data-target="#myCarousel" data-slide-to="3"></li>
+                        <li class="" data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner responsive">
+                        <div class="item active">
+                           <div class="centered">
+                                <h1>NHL</h1>
+                           </div> 
+                           
+                            
+                            <div class="row side-margins">
+                                <div class="col-sm-3 centered">
+                                  <h4>GAA</h4>
+                                      <ol>
+                                          <li>Jordan Binnington(STL) - 1.80 <img src="/Project/media/NHL/JordanBinnington.png" alt="Starrett" height="200" width="200"></li>
+                                          <li>Ben Bishop(DAL) - 2.13 </li>
+                                          <li>Robin Lehner(NYI) - 2.19</li>
+                                          <li>Thomas Greiss(NYI) - 2.22 </li>
+                                          <li>Andrei Vasilevskiy(TBL) - 2.24 </li>
+                                      </ol>
+                                </div>
+                                <div class="col-sm-3 centered">
+                                  <h4>Wins</h4>
+                                      <ol>
+                                            
+                                          <li>Frederik Andersen(TOR) - 32 <img src="/Project/media/NHL/MarcAndreFleury.png" alt="Nedelijkovic" height="200" width="200">
+                                          <li>Marc-Andre Fleury(VGK) - 33 </li>
+                                          <li>Martin Jones(SJS) - 32 </li>
+                                          <li>Andrei Vasilevskiy(TBL) - 21 </li>
+                                          <li>Carey Price(MTL) - 28 </li>
+                                      </ol>
+                                </div>
+                                <div class="col-sm-3 centered">
+                                  <h4>SV %</h4>
+                                  <ol>
+                                        
+                                      <li>Andrei Vasilevskiy(TBL) - .931 <img src="/Project/media/NHL/AndreiVasilevskiy1.png" alt="Ingram" height="200" width="200"></li>
+                                      <li>Ben Bishop(DAL) - .930 </li>
+                                      <li>Jordan Binnington(STL) - .929 </li>
+                                      <li>Thomas Greiss(NYI) - .928 </li>
+                                      <li>Jack Campbell(LAK) - .927 </li>
+                                  </ol>
+                                </div>
+                                <div class="col-sm-3 centered">
+                                  <h4>SO</h4>
+                                      <ol>
+                                            
+                                          <li>Marc-Andre Fleury(VGK) - 8 <img src="/Project/media/NHL/MarcAndreFleury.png" alt="Ingram" height="200" width="200"></li>
+                                          <li>Andrei Vasilevskiy(TBL) - 6 </li>
+                                          <li>Sergei Bobrovsky(CBJ) - 5 </li>
+                                          <li>Jordan Binnington(STL) - 5 </li>
+                                          <li>Ben Bishop(DAL) - 5 </li>
+                                      </ol>
+                                </div>
+                              </div>
+                            <div class="row">
+                                <div class="card col-sm-12 side-margins centered stat-image">
+                                    <h3>For all NHL goaltender statistics, <a href="https://www.hockey-reference.com/playoffs/NHL_2019_goalies.html">Click here.</a></h3>
+                                </div>
+                                  
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="centered ">
+                                <h1>AHL</h1>
+                            </div>
+                            <div class="row side-margins">
+                                <div class="col-sm-3 ">
+                                  <h4>GAA</h4>
+                                      <ol>
+                                            
+                                            <li>Shane Starrett(BAK) - 2.19 <img src="/Project/media/AHL/ShaneStarrett.png" alt="Starrett" height="200" width="200"></li>
+                                          <li>Connor Ingram(SYR) - 2.26 </li>
+                                          <li>Marcus Hogberg(BEL) - 2.32</li>
+                                          <li>Patrik Rybar(GR) - 2.36 </li>
+                                          <li>Max Lagace(CHI) - 2.41 </li>
+                                      </ol>
+                                </div>
+                                <div class="col-sm-3 ">
+                                  <h4>Wins</h4>
+                                      <ol>
+                                            
+                                          <li>Alex Nedelijkovic(CHA) - 27 <img src="/Project/media/AHL/AlexNedelijkovic.png" alt="Nedelijkovic" height="200" width="200"></li>
+                                          <li>Scott Wedgewood(ROC) - 22 </li>
+                                          <li>Shane Starrett(BAK) - 21 </li>
+                                          <li>Zane McIntyre(PRO) - 21 </li>
+                                          <li>Pavel Francouz(COL) - 21 </li>
+                                      </ol>
+                                </div>
+                                <div class="col-sm-3 ">
+                                  <h4>SV %</h4>
+                                  <ol>
+                                        
+                                      <li>Connor Ingram(SYR) - .922 <img src="/Project/media/AHL/ConnorIngram.png" alt="Ingram" height="200" width="200"></li>
+                                      <li>Shane Starrett(BAK) - .921 </li>
+                                      <li>Anton Forsberg(RFD) - .921 </li>
+                                      <li>Alex Lyon(LV) - .921 </li>
+                                      <li>Pavel Francouz(COL) - .918 </li>
+                                  </ol>
+                                </div>
+                                <div class="col-sm-3 ">
+                                  <h4>SO</h4>
+                                      <ol>
+                                            
+                                          <li>Connor Ingram(SYR) - 6 <img src="/Project/media/AHL/ConnorIngram.png" alt="Ingram" height="200" width="200"></li>
+                                          <li>Kaapo Kohkonen(IA) - 5 </li>
+                                          <li>Josef Korenar(SJ) - 3 </li>
+                                          <li>Shane Starrett(BAK) - 3 </li>
+                                          <li>Eddie Pasquale(SYR) - 3 </li>
+                                      </ol>
+                                </div>
+                                
+                              </div>  
+                            <div class="row">
+                                <div class="card col-sm-12 side-margins centered stat-image">
+                                    <h3>For all AHL goaltender statistics, <a href="https://theahl.com/stats/goalie-stats">Click here.</a></h3>
+                                </div>
+                                      
+                            </div>    
+  
+                        </div>
+                        <div class="item">
+                            <div class="centered ">
+                                <h1>WHL</h1>
+                            </div>
+                            <div class="row side-margins">
+                                <div class="col-sm-3">
+                                    <h4>GAA</h4>
+                                    <ol>
+                                            
+                                        <li>Dustin Wolf(EVT) - 1.68 <img src="/Project/media/WHL/DustinWolf.png" alt="Wolf" height="200" width="200"></li>
+                                        <li>Ian Scott(PA) - 1.86</li>
+                                        <li>Trent Miner(VAN) - 2.02</li>
+                                        <li>David Tendeck(VAN) - 2.50</li>
+                                        <li>Dylan Myskiw(EDM) - 2.58</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>Wins</h4>
+                                    <ol>
+                                            
+                                        <li>Dustin Wolf(EVT) - 41 <img src="/Project/media/WHL/DustinWolf.png" alt="Wolf" height="200" width="200"></li>
+                                        <li>Ian Scott(PA) - 36</li>
+                                        <li>Nolan Maier(SAS) - 34</li>
+                                        <li>Beck Warm(TC) - 32</li>
+                                        <li>Shane Farkas(POR) - 30</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>SV %</h4>
+                                    <ol>
+                                        
+                                        <li>Dustin Wolf(EVT) - .937 <img src="/Project/media/WHL/DustinWolf.png" alt="Wolf" height="200" width="200"></li>
+                                        <li>Ian Scott(PA) - .932</li>
+                                        <li>Trent Miner(VAN) - .923</li>
+                                        <li>Mads Sogaard(MH) - .922</li>
+                                        <li>Roddy Ross(SEA) - .922</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>SO</h4>
+                                    <ol>
+                                            
+                                        <li>Ian Scott(PA) - 7  <img src="/Project/media/WHL/IanScott.png" alt="Scott" height="3000" width="3000"></li>
+                                        <li>Dustin Wolf(EVT) - 7</li>
+                                        <li>Dvid Tendeck(VAN) - 4</li>
+                                        <li>Shane Farkas(POR) - 4</li>
+                                        <li>Nolan Maier(SAS) - 4</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="card col-sm-12 side-margins centered stat-image">
+                                <h3>For all WHL goaltender statistics, <a href="http://whl.ca/stats/goalies/267">Click here.</a></h3>
+                            </div>
+                                          
+                        </div> 
+                    
+                        </div>
+                        <div class="item">
+                            <div class="centered ">
+                                <h1>OHL</h1>
+                            </div>
+                            <div class="row side-margins">
+                    
+                                <div class="col-sm-3">
+                                    <h4>GAA</h4>
+                                    <ol>
+                                            
+                                        <li>Michael DiPietro(OTT) - 2.46 <img src="/Project/media/OHL/MichaelDiPietro.png" alt="DiPietro" height="200" width="200"></li>
+                                        <li>Cedrick Andree(OTT) - 2.47</li>
+                                        <li>Ukko-Pekka Luukkonen(SBY) - 2.50</li>
+                                        <li>Kyle Keyser(OSH) - 2.75</li>
+                                        <li>Jordan Kooy(LDN) - 2.81</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>Wins</h4>
+                                    <ol>
+                                            
+                                        <li>Ukko-Pekka Luukkonen(SBY) - 35 <img src="/Project/media/OHL/UkkoPekkaLuukkonen.png" alt="Luukkonen" height="200" width="200"></li>
+                                        <li>Ivan Prosvetov(SAG) - 34</li>
+                                        <li>Stephen Dhillon(NIAG) - 34</li>
+                                        <li>Cedrick Andree(OTT) - 32</li>
+                                        <li>Kyle Keyser(OSH) - 30</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>SV %</h4>
+                                    <ol>
+                                            
+                                        <li>Ukko-Pekka Luukkonen(SBY) - .919 <img src="/Project/media/OHL/UkkoPekkaLuukkonen.png" alt="Luukkonen" height="200" width="200"></li>
+                                        <li>Kyle Keyser(OSH) - .915</li>
+                                        <li>Jet Greaves(BAR) - .914</li>
+                                        <li>Cedrick Andree(OTT) - .912</li>
+                                        <li>Stephen Dhillon(NIAG) - .910</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>SO</h4>
+                                    <ol>
+                                            
+                                        <li>Stephen Dhillon(NIAG) - 6 <img src="/Project/media/OHL/StephenDhillon.png" alt="Dhillon" height="200" width="200"></li>
+                                        <li>Ukko-Pekka Luukkonen(SBY) - 5</li>
+                                        <li>Cedrick Andree(OTT) - 4</li>
+                                        <li>Ivan Prosvetov(SAG) - 4</li>
+                                        <li>Michael DiPietro(OTT) - 4</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="card col-sm-12 side-margins centered stat-image">
+                                <h3>For all OHL goaltender statistics, <a href="http://ontariohockeyleague.com/stats/goalies/66">Click here.</a></h3>
+                            </div>
+                                                  
+                        </div> 
+                    
+                        </div>
+
+                        <div class="item">
+                            <div class="centered ">
+                                <h1>QMJHL</h1>
+                            </div>
+                            <div class="row ">
+                                <div class="col-sm-3">
+                                    <h4>GAA</h4>
+                                    <ol>
+                                            
+                                        <li>Zachary Emond(ROU) - 1.79 <img src="/Project/media/QMJHL/ZacharyEmond.png" alt="Emond" class="responsive"></li>
+                                        <li>Samuel Harvey(ROU) - 2.04</li>
+                                        <li>Colten Ellis(RIM) - 2.41</li>
+                                        <li>Olivier Rodrigue(DRU) - 2.43</li>
+                                        <li>Tristan Cote-Cazenave(VIC) - 2.49</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>Wins</h4>
+                                    <ol>
+                                            
+                                        <li>Olivier Rodrigue(DRU) - 35 <img src="/Project/media/QMJHL/OlivierRodrigue.png" alt="Rodrigue" class="responsive"></li>
+                                        <li>Samuel Harvey(ROU) - 33</li>
+                                        <li>Alexis Gravel(HAL) - 31</li>
+                                        <li>Matthew Welsh(CHA) - 29</li>
+                                        <li>Colten Ellis(RIM) - 27</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>SV %</h4>
+                                    <ol>
+                                            
+                                        <li>Zachary Emond(ROU) - .929 <img src="/Project/media/QMJHL/ZacharyEmond.png" alt="Emond" class="responsive"></li>
+                                        <li>Samuel Harvey(ROU) - .925</li>
+                                        <li>Tristan Cote-Cazenave(VIC) - .920</li>
+                                        <li>Alexis Shank(CHI) - .914</li>
+                                        <li>Alexis Gravel(HAL) - .913</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h4>SO</h4>
+                                    <ol>
+                                            
+                                        <li>Zachary Emond(ROU) - 6 <img src="/Project/media/QMJHL/ZacharyEmond.png" alt="Emond" class="responsive"></li>
+                                        <li>Tristan Cote-Cazenave(VIC) - 5</li>
+                                        <li>Alexis Gravel(HAL) - 5</li>
+                                        <li>Cole McLaren(HAL) - 4</li>
+                                        <li>Alexis Shank(CHI) - 4</li>
+                                    </ol>
+                                </div>
+                            </div>   
+                        <div class="row">
+                            <div class="card col-sm-12 side-margins centered stat-image">
+                                <h3>For all QMJHL goaltender statistics, <a href="http://theqmjhl.ca/stats/goalies/191">Click here.</a></h3>
+                            </div>
+                                                          
+                        </div> 
+                           
+                    </div>                  
+                    
+                </div>
+                    
+                          
+            <div class="card">
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="left: -5%" >
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next" style="right: -5%" >
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>  
+            </div>  
+            
+        </div>        
+                      
+                      
+                     
+                      
+</body>
+
+</html>
+
